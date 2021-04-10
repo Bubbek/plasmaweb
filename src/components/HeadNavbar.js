@@ -97,7 +97,7 @@ export default function HeadNavbar() {
         </Navbar.Collapse>
       </Navbar>
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/community" exact component={Community} />
         <Route path="/news" exact component={News} />
         <Route path="/login" exact component={Login} />
