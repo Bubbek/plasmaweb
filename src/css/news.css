@@ -1,0 +1,33 @@
+.cardtxt {
+  color: black;
+}
+
+.newscardimg {
+  width: 400px;
+  height: 250px;
+}
+
+.newscardimg:hover {
+  opacity: 0.75;
+}
+
+.Newsbody {
+  width: 738px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+h6 {
+  font-weight: bold;
+}
+
+.test-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+/* Card has a default background-color white how do i 
+disable it without removing it from the cards from the homepage.*/
+/* .test-card {
+  background-color: none;
+} */
